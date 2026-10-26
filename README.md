@@ -57,3 +57,5 @@ Top nav includes an AI Chat side panel available from every page. This is a brow
 - New PDF/image uploads are stored in browser-local IndexedDB and previewed using object URLs; no file or chat content is sent to a server. Previous name-only entries ask the user to select the original file. Unsupported formats remain downloadable and are not displayed as a fake preview.
 - Saving an event adds it to Today automatically; unsaving removes it. Calendar month controls display October/November and multiple entries per day. View in calendar opens the relevant month; Export .ics remains a separate download.
 - #F8AA8E highlights dates, important prompts and states requiring confirmation, while category colours remain distinct.
+
+PDF rendering uses a locally bundled PDF.js 6.4.299 from the official pdfjs-dist npm package (Apache 2.0, see PDFJS-LICENSE). It renders pages directly on the website without sending file data to an external viewer. In-page rendering requires HTTP/HTTPS; the standalone file offers native PDF fallback and a link to use the online demo/local launcher.
