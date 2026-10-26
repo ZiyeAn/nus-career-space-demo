@@ -41,3 +41,12 @@ Profile 支持添加简历/作品集的文件名和分类。Job Events 支持保
 ## Global AI Chat & interview layout
 
 Top nav includes an AI Chat side panel available from every page. This is a browser-local guided-reply demo (English and Chinese keywords), not a live LLM. It supports free-text input, suggested questions, current demo data, navigation actions, Enter to send, Shift+Enter for a newline, Escape to close, and clearing the conversation. Messages are kept only for the current page session and are not sent to a server. Interview inner pages now use the full workspace width with a compact context column, a prominent 52px Back to Interviews button and a separate previous-step control.
+
+## Interview, advisor, categories and filters update
+
+- Interview questions and suggested answer approaches are combined in one card inside Prepare for this role and in the outline.
+- Add interview supports manual company/role/date/time/location/round or linking a saved job. Each interview keeps its own experiences, materials, outline and reflection. October entries appear in the demo calendar.
+- AI Chat unsupported questions and explicit human requests link to the official NUS CFG Career Advisory page. No transcript is sent, no appointment is automatically booked.
+- Jobs support drag and drop between category columns and an accessible Move to select in cards/table/details. Users can create and rename categories; changes persist locally, including empty columns.
+- Job Events topic chips Design and Research combine with OR, Singapore is an AND location filter. All clears these filters.
+- Demo question suggestions remain illustrative rather than verified interview reports.
