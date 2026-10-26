@@ -37,3 +37,7 @@ Profile 支持添加简历/作品集的文件名和分类。Job Events 支持保
 - Today：点击日历日期显示事件小窗，可进入对应投递或面试准备。支持外部点击和 Escape 关闭。
 - Interviews：在 Prepare for this role 上方新增 AI interview research，预览三类可能问题，并将问题带入经历选择与提纲。当前仅为明确标记的模拟检索，不声称已抓取真实面经。
 - Plugin：固定 384px 宽度，窄屏横向滚动，不压缩为网页自适应面板。
+
+## Global AI Chat & interview layout
+
+Top nav includes an AI Chat side panel available from every page. This is a browser-local guided-reply demo (English and Chinese keywords), not a live LLM. It supports free-text input, suggested questions, current demo data, navigation actions, Enter to send, Shift+Enter for a newline, Escape to close, and clearing the conversation. Messages are kept only for the current page session and are not sent to a server. Interview inner pages now use the full workspace width with a compact context column, a prominent 52px Back to Interviews button and a separate previous-step control.
