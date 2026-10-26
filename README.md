@@ -13,7 +13,7 @@
 ## 两条流程
 
 1. Plugin demo → Read this page → 检查分类、优先级、材料 → Confirm files & save → Workspace。
-2. 直接进入 Today → Generate outline；或 Interviews → Prepare materials → 选经历 → 确认材料 → 生成提纲 → VMock 外链 → 面试后复盘。
+2. 直接进入 Today → 自定义任务 / 行业新闻转待办；Interviews → 相关经历与准备笔记 → 选中文字 Ask AI → 继续讨论。Materials & practice 与面试后笔记收在折叠区。
 
 Jobs 含 24 条示例职位、4 个类别，支持侧边筛选、搜索、Columns/Table 切换、右侧详情、任务勾选和进度记录。
 Profile 支持简历/作品集的分类和右侧预览。Job Events 收藏后同步到站内日历，也可导出示例日历事件。
@@ -59,3 +59,12 @@ Top nav includes an AI Chat side panel available from every page. This is a brow
 - #F8AA8E highlights dates, important prompts and states requiring confirmation, while category colours remain distinct.
 
 PDF rendering uses a locally bundled PDF.js 6.4.299 from the official pdfjs-dist npm package (Apache 2.0, see PDFJS-LICENSE). It renders pages directly on the website without sending file data to an external viewer. In-page rendering requires HTTP/HTTPS; the standalone file offers native PDF fallback and a link to use the online demo/local launcher.
+
+## Simplified Today and interview workspace
+
+- Today has a single interview card, editable personal To-do tasks, and two relevant industry stories. Sources and publication dates are visible; the list is a manually verified 26 Oct 2026 snapshot, not an automatic live feed. Following changes topic selection, and Add to tasks converts an application suggestion into an action.
+- Jobs can be deleted from cards, table or details with an Undo action. Other interviews and files remain independent.
+- Interviews now use a single relevant-experience document rather than a multi-step outline flow. Choose profile experiences, add your own account, and save preparation/review notes per interview. Select document text or notes to reveal Ask AI, or use the per-experience button. The selected text appears visibly in AI Chat and is carried into guided demo replies. No live LLM is connected.
+- Avatar opens Log out. This ends only the local demo session; Continue demo restores access without deleting browser-local records or pretending to sign out an actual school account.
+
+News snapshot sources: Figma (23 Oct 2026), https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/ ; NUS News (22 Oct 2026), https://news.nus.edu.sg/worlds-first-touchscreen-in-garment ; thoughtbot (20 Oct 2026, updated 22 Oct), https://thoughtbot.com/blog/design-systems-in-an-ai-era ; Figma (15 Oct 2026), https://www.figma.com/blog/design-together-with-code-layers/ . Application suggestions are demo recommendations, not claims from the articles.
