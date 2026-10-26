@@ -68,3 +68,7 @@ PDF rendering uses a locally bundled PDF.js 6.4.299 from the official pdfjs-dist
 - Avatar opens Log out. This ends only the local demo session; Continue demo restores access without deleting browser-local records or pretending to sign out an actual school account.
 
 News snapshot sources: Figma (23 Oct 2026), https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/ ; NUS News (22 Oct 2026), https://news.nus.edu.sg/worlds-first-touchscreen-in-garment ; thoughtbot (20 Oct 2026, updated 22 Oct), https://thoughtbot.com/blog/design-systems-in-an-ai-era ; Figma (15 Oct 2026), https://www.figma.com/blog/design-together-with-code-layers/ . Application suggestions are demo recommendations, not claims from the articles.
+
+## Profile experience and skills update
+
+Profile now has a visible Add experience entry and a Skills section instead of Experience & learning. Experiences are canonical Profile records shared with the interview selector; previous interview-only entries are migrated with their selections preserved. Manual skills are allowed without an experience. Summarise from experiences is a conservative local keyword demo: it reads only experience titles and descriptions, presents matching source excerpts, avoids simple negated matches, and saves only skills explicitly selected by the user. It does not read resumes, portfolios, JD, news or preparation notes, and does not infer proficiency. Skill questions in AI Chat use the same source-limited suggestions.
